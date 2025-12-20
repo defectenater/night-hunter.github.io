@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-<div style="text-align: center; margin-bottom: 20px;">
   <title>Bhoga</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
@@ -12,9 +11,13 @@
       margin: 40px auto;
       padding: 0 15px;
       line-height: 1.6;
+      text-align: center; /* center content by default */
     }
-    h1 {
-      text-align: center;
+    .logo {
+      width: 300px; /* set the size you want */
+      height: auto;
+      display: block;
+      margin: 0 auto 20px; /* center the logo and add space below */
     }
     nav a {
       margin-right: 15px;
@@ -27,22 +30,25 @@
   </style>
 </head>
 <body>
- <img src="ysnkpzv6.jpg" alt="Bhoga Logo" class="logo">
-<h1>Bhoga</h1>
+  <!-- Logo -->
+  <img src="ysnkpzv6.jpg" alt="Bhoga Logo" class="logo">
 
-<nav>
-  <a href="index.html">Home</a>
- <a href="articles.html">Articles</a>
-  <a href="about.html">About</a>
-</nav>
+  <!-- Optional: keep the text if you want -->
+  <h1>Bhoga</h1>
 
-<p>
-Bhoga is an independent platform focused on geopolitics, history, and economics.
-</p>
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="articles.html">Articles</a>
+    <a href="about.html">About</a>
+  </nav>
 
-<p>
-The goal is to understand global events through historical context and economic realities.
-</p>
+  <p>
+    Bhoga is an independent platform focused on geopolitics, history, and economics.
+  </p>
 
+  <p>
+    The goal is to understand global events through historical context and economic realities.
+  </p>
 </body>
 </html>
