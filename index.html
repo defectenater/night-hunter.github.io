@@ -1,64 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Bhoga</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 15px;
-      line-height: 1.6;
-      text-align: center;
-      background-color: #191919;
-      color: white;
-    }
-
-    .logo {
-      width: 300px;
-      max-width: 80%;
-      height: auto;
-      margin-bottom: 20px;
-    }
-
-    nav a {
-      margin-right: 15px;
-      text-decoration: none;
-      color: #ddd;
-    }
-
-    nav {
-      margin-bottom: 30px;
-    }
-
-    p {
-      font-family: "Courier New", monospace;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Site</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; background: #f4f4f4; }
+        header { background: #2c3e50; color: white; padding: 1rem 0; text-align: center; }
+        nav ul { list-style: none; background: #34495e; padding: 0; }
+        nav ul li { display: inline; margin: 0 1rem; }
+        nav ul li a { color: white; text-decoration: none; padding: 0.5rem 1rem; display: block; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; overflow: hidden; }
+        main { background: white; margin-bottom: 2rem; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); float: left; width: 70%; }
+        aside { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); float: right; width: 25%; }
+        footer { clear: both; background: #2c3e50; color: white; text-align: center; padding: 1rem; }
+        .post { margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid #ddd; }
+        @media (max-width: 768px) { main, aside { width: 100%; float: none; } }
+    </style>
 </head>
-
 <body>
-
-  <img src="bhogafiles/photo/ysnkpzv6.jpg" 
-       alt="Bhoga Logo"
-       class="logo">
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="articles.html">Articles</a>
-    <a href="about.html">About</a>
-  </nav>
-
-  <p style="font-size: 1.4em;"><b>we spread FACTS!</b></p>
-
-  <p>
-    At Bhoga, we believe that knowledge knows no bounds. Our mission is to explore and share information about
-    <b>everything and anything</b> under the sun. Whether you are curious about the latest trends or diving into
-    niche topics, Bhoga is committed to providing reliable and well-researched information.
-  </p>
-
+    <header>
+        <h1>Your Blog Title</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#posts">Posts</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <main>
+            <article class="post">
+                <h2>Sample Post Title</h2>
+                <p>Content goes here—geopolitics notes, biotech tips, etc. Add images, lists, or sections as needed.</p>
+            </article>
+            <!-- Add more .post divs for pages/posts -->
+        </main>
+        <aside>
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">Post 1</a></li>
+                <li><a href="#">Post 2</a></li>
+            </ul>
+            <h3>Categories</h3>
+            <ul>
+                <li>Biotech</li>
+                <li>Geopolitics</li>
+            </ul>
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2026 Your Name. Ahmedabad, Gujarat.</p>
+    </footer>
 </body>
 </html>
